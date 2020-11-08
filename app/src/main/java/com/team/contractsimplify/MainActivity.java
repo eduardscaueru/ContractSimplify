@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
             android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
             android.Manifest.permission.CAMERA
     };
-
-    @RequiresApi(api = Build.VERSION_CODES.M)
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -112,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
         mTessOCR = new TesseractOCR(this, language);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     void checkPermissions() {
         if (!hasPermissions(context, PERMISSIONS)) {
             requestPermissions(PERMISSIONS,

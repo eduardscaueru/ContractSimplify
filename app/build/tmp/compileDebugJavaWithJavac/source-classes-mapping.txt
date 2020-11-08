@@ -1,0 +1,29 @@
+com/team/contractsimplify/TakePhoto.java
+ com.team.contractsimplify.TakePhoto
+ com.team.contractsimplify.TakePhoto$1
+ com.team.contractsimplify.TakePhoto$2
+ com.team.contractsimplify.TakePhoto$2$1
+com/team/contractsimplify/TesseractOCR.java
+ com.team.contractsimplify.TesseractOCR
+com/team/contractsimplify/SummaryTool.java
+ com.team.contractsimplify.SummaryTool
+com/team/contractsimplify/Paragraph.java
+ com.team.contractsimplify.Paragraph
+com/team/contractsimplify/SentenceComparatorForSummary.java
+ com.team.contractsimplify.SentenceComparatorForSummary
+com/team/contractsimplify/TextProcessing.java
+ com.team.contractsimplify.TextProcessing
+com/team/contractsimplify/SentenceComparator.java
+ com.team.contractsimplify.SentenceComparator
+com/team/contractsimplify/Sentence.java
+ com.team.contractsimplify.Sentence
+com/team/contractsimplify/BuildConfig.java
+ com.team.contractsimplify.BuildConfig
+com/team/contractsimplify/MainActivity.java
+ com.team.contractsimplify.MainActivity
+ com.team.contractsimplify.MainActivity$1
+ com.team.contractsimplify.MainActivity$2
+ com.team.contractsimplify.MainActivity$2$1
+com/team/contractsimplify/Menu.java
+ com.team.contractsimplify.Menu
+ com.team.contractsimplify.Menu$1

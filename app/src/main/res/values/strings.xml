@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ContractSimplify</string>
+    <string name="scan_your_contract">Scan your contract</string>
+    <string name="logo">Logo</string>
+    <string name="credits">Made by Team\n
+        \t\t\tEduard Scăueru\n
+        \t\t\tCătălin Picior\n
+        \t\t\tIulian Drăcea</string>
+
+    <string name="app_description">
+        Are you fed up with reading pages and pages of terms and conditions ?
+        Take photos of a contract and get a summarized version of it in just seconds.
+    </string>
+    <string name="insert_the_number_of_pages_of_the_contract">Insert the number of pages of the contract:</string>
+    <string name="number_of_pages">Number of pages</string>
+    <string name="confirm">Confirm</string>
+</resources>

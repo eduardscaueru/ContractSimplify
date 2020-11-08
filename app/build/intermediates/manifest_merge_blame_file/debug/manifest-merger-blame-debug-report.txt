@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.team.contractsimplify"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\ContractSimplify\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\ContractSimplify\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:4:5-60
+11-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:4:19-57
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:5:5-65
+13-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:6:5-81
+14-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:6:22-78
+15
+16    <application
+16-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:7:5-23:19
+17        android:allowBackup="true"
+17-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:8:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\edi_s\.gradle\caches\transforms-2\files-2.1\68cda5fb769a6af8d2ede2fd17a312b1\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.team.contractsimplify.MainActivity" />
+27-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:14:9-49
+27-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:14:19-47
+28        <activity android:name="com.team.contractsimplify.TakePhoto" />
+28-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:15:9-47
+28-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:15:19-44
+29        <activity android:name="com.team.contractsimplify.Menu" >
+29-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:16:9-22:20
+29-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:16:19-39
+30            <intent-filter>
+30-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:18:17-69
+31-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:20:17-77
+33-->D:\ContractSimplify\app\src\main\AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
